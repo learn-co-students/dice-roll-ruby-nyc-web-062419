@@ -4,4 +4,8 @@
 
 def roll
   # code goes here
+  #rand(1..6)
+  #rand(1...7)
+  #[1, 2, 3, 4, 5, 6].shuffle.first
+  [1, 2, 3, 4, 5, 6].sample
 end
